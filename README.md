@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+by Mr. Matos (The Travis one)
 
 ---
 ## Git vs. GitHub
