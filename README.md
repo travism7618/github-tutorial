@@ -38,18 +38,17 @@ Its pretty simple to get one set up once you do it a couple times but heres the 
 
 `git add file` Adds the changes from file to the staging area, preparing it to be saved 
 `git add .` adds all the new changes that were added inside the current directory into the staging area (not including changes of deleted stuff)
-`git add --all` Adds to all changes, including the stuff that were deleted to the staging area (prepares all changes to be saved )
+`git add --all` Adds all changes, including the stuff that were deleted to the staging area (prepares all changes to be saved )
 
 `git commit -m "message"`  
-Commits changes, thus saving the changes. It must contain a message acting as a reminder.
+Commits changes, or saves the changes. It must contain a message acting as a reminder or summary of changes.
 
 
 `remote` - creates a link between a external and internal repository  
 
-`origin` - this is the “nickname” for the remote repo, “origin” is the standard.  
+`origin` - this is the “nickname” for the remote repo name it whatever you want, “origin” is the standard.  
 
 `url` - the location of the remote repo. Could be HTTPS or SSH  
-`git push` -u origin master  
 `Push` - we are sending our commits from our local repo to ur remote repo  
 
 `Origin `- This is which remote we are pushing to  
