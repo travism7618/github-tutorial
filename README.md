@@ -26,15 +26,21 @@ Its pretty simple to get one set up once you do it a couple times but heres the 
 1. first you wanna a make sure that you actually have a commit to push, remember *you can't push unless you have a new commit that you have not pushed*
 2. then once you have a commit to push, go back to github and the top-right click the + button and hit New repository and input a name for it. Then hit "create repository"
 
+Some helpful comands that can use through out git.  
+`git init`- Initializes a repository into the current directory  
+`rm -rf .git` Removes git from specified directory  
+`remote` - creates a link between a external and internal repository  
+`url` - the location of the remote repo. Could be HTTPS or SSH   
+`Origin `- This is which remote we are pushing to   
+`Master` - the “main” branch of our project  
+`git remote -v`  
+shows the remote of the repository (where the bridge is, where its sending the changes to)
+
 
 
 
 ---
 ## Workflow & Commands
-`git init`- Initializes a repository into the current directory
-
-
-`rm -rf .git` Removes git from specified directory
 
 `git add file` Adds the changes from file to the staging area, preparing it to be saved 
 `git add .` adds all the new changes that were added inside the current directory into the staging area (not including changes of deleted stuff)
@@ -48,20 +54,13 @@ Commits changes, or saves the changes. It must contain a message acting as a rem
 
 `origin` - this is the “nickname” for the remote repo name it whatever you want, “origin” is the standard.  
 
-`url` - the location of the remote repo. Could be HTTPS or SSH  
 `Push` - we are sending our commits from our local repo to ur remote repo  
-
-`Origin `- This is which remote we are pushing to  
-
-`Master` - the “main” branch of our project  
-
-`- u -` means “upstream” This tells git to remember which remote repo & branch to push our changes to when we type got [ush in the future.
+`- u -` means “upstream” This tells git to remember which remote repo & branch to push our changes to when we type git push in the future.  
 `git push`
 Pushes files into repository  
 `git diff`
 Reveals changes made 
-`git log`
-View changes
+`git log`  View changes
 `q (while in git log)`
 Backs out of git log  
 `git checkout -- file`
