@@ -29,10 +29,9 @@ Its pretty simple to get one set up once you do it a couple times but heres the 
 4. then copy where it says ```git remote add origin git@github.com:(your username)/(the name you created .git 
 git push -u origin master``` and paste it to the command line while in the directory of your choosing.
 
-Some helpful comands that can use through out git.  
+Some helpful commands and vocab that can be used through out git.  
 `git init`- Initializes a repository into the current directory  
 `rm -rf .git` Removes git from specified directory  
-`remote` - creates a link between a external and internal repository  
 `url` - the location of the remote repo. Could be HTTPS or SSH   
 `Origin `- This is which remote we are pushing to   
 `Master` - the “main” branch of our project  
@@ -52,18 +51,15 @@ shows the remote of the repository (where the bridge is, where its sending the c
 `git commit -m "message"`  
 Commits changes, or saves the changes. It must contain a message acting as a reminder or summary of changes.
 
-
-`remote` - creates a link between a external and internal repository  
-
 `origin` - this is the “nickname” for the remote repo name it whatever you want, “origin” is the standard.  
 
 `Push` - we are sending our commits from our local repo to ur remote repo  
 `- u -` means “upstream” This tells git to remember which remote repo & branch to push our changes to when we type git push in the future.  
 `git push`
-Pushes files into repository  
+Pushes files into staging area to be saved  
 `git diff`
 Reveals changes made 
-`git log`  View changes
+`git log`  View list of commits
 `q (while in git log)`
 Backs out of git log  
 `git checkout -- file`
