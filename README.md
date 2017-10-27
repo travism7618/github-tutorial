@@ -25,6 +25,9 @@ by Mr. Matos (The Travis one)
 Its pretty simple to get one set up once you do it a couple times but heres the basic review 
 1. first you wanna a make sure that you actually have a commit to push, remember *you can't push unless you have a new commit that you have not pushed*
 2. then once you have a commit to push, go back to github and the top-right click the + button and hit New repository and input a name for it. Then hit "create repository"
+3. You should see on your screen several snippits of text to copy, however, make sure that you click on ssh before copying anything. 
+4. then copy where it says ```git remote add origin git@github.com:(your username)/(the name you created .git 
+git push -u origin master``` and paste it to the command line while in the directory of your choosing.
 
 Some helpful comands that can use through out git.  
 `git init`- Initializes a repository into the current directory  
